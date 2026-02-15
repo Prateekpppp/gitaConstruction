@@ -1,6 +1,9 @@
 
 <?php
 
+    $appName = 'Hotel Mahal';
+    $email = 'hotelmahal@gmail.com';
+    $address = '6799/481, near aiims, Kantabele, Kalyani, Kata Belia, West Bengal 741245';
     $whatsapp = '918961260326';
 
 ?>
@@ -12,7 +15,7 @@
         <meta name="description" content="Hotel & Restaurant in Kalyani">
         <!--<title></title>-->
         <title>
-            Hotel in Chinsurah | Hotel for Chandannagar | Hotel for Bandel | Hotel Plaza        </title>
+            Hotel in Chinsurah | Hotel for Chandannagar | Hotel for Bandel | <?= $appName ?>        </title>
         
         <!-- ✅ Google Search Console Verification -->
         <meta name="google-site-verification" content="zBzX-5HR2Et4q9Bc0dXeXer_Mw3UC1inu43I_kN5yVA">
@@ -37,15 +40,7 @@
         <!-- YOUR CUSTOM CSS -->
         <link href="assets/css/custom.css" rel="stylesheet">
         
-        <!-- Google tag (gtag.js) -->
-        <script async="" src="gtag/js?id=AW-10837975799"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'AW-10837975799');
-        </script><!-- You can put your css only for this page.  -->
+        <!-- Google Tag -->
 
 </head>
 

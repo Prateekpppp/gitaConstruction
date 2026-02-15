@@ -25,11 +25,11 @@ include('includes/header.php');
               <div class="col-lg-5">
                   <div class="intro">
                       <div class="title">
-                          <small>Hotel Plaza</small>
+                          <small><?= $appName ?></small>
                           <h2>Our History</h2>
                       </div>
                       <p class="lead">A Premium Hospitality Experience</p>
-                      <p>At Hotel Plaza, we are dedicated to providing top-notch hospitality with modern amenities and world-class service. Our hotel is designed to cater to both leisure and business travelers, offering a luxurious stay and unmatched convenience.</p>
+                      <p>At <?= $appName ?>, we are dedicated to providing top-notch hospitality with modern amenities and world-class service. Our hotel is designed to cater to both leisure and business travelers, offering a luxurious stay and unmatched convenience.</p>
                       <!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo.</p>-->
                       <p><em>A unit of Gita Construction</em></p>
                   </div>
@@ -45,9 +45,9 @@ include('includes/header.php');
                   <div class="row justify-content-between">
                       <div class="col-lg-5 fixed_title">
                           <div class="title">
-                              <small>Welcome to Hotel Plaza </small>
+                              <small>Welcome to <?= $appName ?> </small>
                               <h2>A Premium Hospitality Experience</h2>
-                              <p>At Hotel Plaza, we are dedicated to providing top-notch hospitality with modern amenities and world-class service. Our hotel is designed to cater to both leisure and business travelers, offering a luxurious stay and unmatched convenience. </p>
+                              <p>At <?= $appName ?>, we are dedicated to providing top-notch hospitality with modern amenities and world-class service. Our hotel is designed to cater to both leisure and business travelers, offering a luxurious stay and unmatched convenience. </p>
                           </div>
                           <div class="list_ok">
                               <ul>

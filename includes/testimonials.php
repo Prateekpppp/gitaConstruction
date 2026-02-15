@@ -18,7 +18,7 @@
                                             <h4>Ashok<small>12 Oct</small></h4>
                                         </div>
                                         <div class="comment">
-                                            "The banquet at Hotel Plaza was absolutely outstanding! Hosting 1,000 guests was seamless, thanks to their professional team. The food was exquisite, and the ambiance was perfect. Highly recommended for large-scale events!"
+                                            "The banquet at <?= $appName ?> was absolutely outstanding! Hosting 1,000 guests was seamless, thanks to their professional team. The food was exquisite, and the ambiance was perfect. Highly recommended for large-scale events!"
                                         </div>
                                     </div>
                                     <!-- End box_overlay -->
@@ -31,7 +31,7 @@
                                             <h4>Viral<small>2 Nov</small></h4>
                                         </div>
                                         <div class="comment">
-                                            "Hotel Plaza exceeded all expectations for my client’s wedding. The elegant setup, delicious cuisine, and exceptional service made the evening truly magical. Every detail was handled flawlessly!"
+                                            "<?= $appName ?> exceeded all expectations for my client’s wedding. The elegant setup, delicious cuisine, and exceptional service made the evening truly magical. Every detail was handled flawlessly!"
                                         </div>
                                     </div>
                                     <!-- End box_overlay -->
@@ -44,7 +44,7 @@
                                             <h4>Ravi<small>3 Dec</small></h4>
                                         </div>
                                         <div class="comment">
-                                            "We hosted a major business conference, and the Hotel Plaza team delivered an impeccable experience. From the audio-visual setup to the gourmet dining, everything was top-notch. Looking forward to our next event here!"
+                                            "We hosted a major business conference, and the <?= $appName ?> team delivered an impeccable experience. From the audio-visual setup to the gourmet dining, everything was top-notch. Looking forward to our next event here!"
                                         </div>
                                     </div>
                                     <!-- End box_overlay -->

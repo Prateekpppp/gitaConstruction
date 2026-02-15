@@ -25,10 +25,10 @@ include('includes/header.php');
                         <div class="intro">
                             <div class="title">
                                 <small>About us</small>
-                                <h2>Welcome to Hotel Plaza – Luxury & Comfort in Chinsurah</h2>
+                                <h2>Welcome to <?= $appName ?> – Luxury & Comfort in Chinsurah</h2>
                             </div>
                             <!--<p class="lead">Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim.</p>-->
-                            <p>Welcome to Hotel Plaza – Luxury & Comfort in Chinsurah Located in the heart of Chinsurah, Hotel Plaza Hotel, Restaurant & Banquet offers a perfect blend of elegance, comfort, and premium hospitality. Whether you’re looking for a luxurious stay, a delightful dining experience, or a grand venue for your special events, we have it all.</p>
+                            <p>Welcome to <?= $appName ?> – Luxury & Comfort in Chinsurah Located in the heart of Chinsurah, <?= $appName ?> Hotel, Restaurant & Banquet offers a perfect blend of elegance, comfort, and premium hospitality. Whether you’re looking for a luxurious stay, a delightful dining experience, or a grand venue for your special events, we have it all.</p>
                             <p><em>A unit of Gita Construction</em></p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ include('includes/header.php');
             <!-- /row-->
 
             <div class="title text-center mb-5">
-                <small data-cue="slideInUp">Hotel Plaza</small>
+                <small data-cue="slideInUp"><?= $appName ?></small>
                 <h2 data-cue="slideInUp" data-delay="100">Main Facilities</h2>
             </div>
             <div class="row mt-4">
@@ -160,7 +160,7 @@ include('includes/header.php');
                         <div class="title">
                             <small>Services</small>
                             <h3>Restaurants</h3>
-                            <p>Welcome to Hotel Plaza Restaurant, where elegance meets exceptional dining. Our restaurant offers a refined atmosphere, perfect for casual dining, business meetings, and special occasions.</p>
+                            <p>Welcome to <?= $appName ?> Restaurant, where elegance meets exceptional dining. Our restaurant offers a refined atmosphere, perfect for casual dining, business meetings, and special occasions.</p>
                             <p><a href="about.html" class="btn_1 mt-1 outline">Read more</a></p>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ include('includes/header.php');
                         <div class="title">
                             <small>Services</small>
                             <h3>Banquet</h3>
-                            <p>Welcome to our Grand Banquet at Hotel Plaza, designed to host and impress up to 1,000 guests with elegance and seamless service. Our spacious venue offers a sophisticated setting, perfect for corporate events, weddings, and large celebrations.</p>
+                            <p>Welcome to our Grand Banquet at <?= $appName ?>, designed to host and impress up to 1,000 guests with elegance and seamless service. Our spacious venue offers a sophisticated setting, perfect for corporate events, weddings, and large celebrations.</p>
                             <p><a href="about.html" class="btn_1 mt-1 outline">Read more</a></p>
                         </div>
                     </div>
@@ -247,7 +247,7 @@ include('includes/header.php');
         <!--        <div class="col-xl-4">-->
         <!--            <div data-cue="slideInUp">-->
         <!--                <div class="title">-->
-        <!--                    <small>Hotel Plaza</small>-->
+        <!--                    <small><?= $appName ?></small>-->
         <!--                    <h2>Check Availability</h2>-->
         <!--                </div>-->
         <!--                <p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. </p>-->

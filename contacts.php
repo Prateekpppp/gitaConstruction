@@ -22,12 +22,12 @@ include('includes/header.php');
                             <li>
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Address</h4>
-                                <div>Khadinmore, Above Smart Bazar, <br>Chinsurah</div>
+                                <div><?= $address ?></div>
                             </li>
                             <li>
                                 <i class="bi bi-envelope-paper"></i>
                                 <h4>Email address</h4>
-                                <p><a href="#0">hotelplazachinsurah@gmail.com</a> - <a href="#0">hotelplazachinsurah@gmail.com</a></p>
+                                <p><a href="#0"><?= $email ?></a> - <a href="#0"><?= $email ?></a></p>
                             </li>
                             <li>
                                 <i class="bi bi-telephone"></i>
@@ -85,8 +85,7 @@ include('includes/header.php');
       <!-- /container -->
 
         <div class="map_contact">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.4052560666597!2d88.38120399620365!3d22.892006823685108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDUzJzMxLjIiTiA4OMKwMjInNTIuMyJF!5e0!3m2!1sen!2sin!4v1710240000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3249716582304!2d88.3807409743799!3d22.90138152084176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89314ef91fc43%3A0x9294c9c11173c80!2sMore%20Hypermart%2C%20Chinsurah!5e0!3m2!1sen!2sin!4v1771171651388!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         
 

@@ -9,9 +9,8 @@
                 <div class="col-lg-4 col-md-12">
                     <h5>Contacts</h5>
                     <ul>
-                        <li>Khadinmore, Above Smart Bazar, 
-                        <br>Chinsurah<br><br></li>
-                        <li><strong><a href="mailto:hotelplazachinsurah@gmail.com">hotelplazachinsurah@gmail.com</a></strong></li>
+                        <li><?= $address ?></li>
+                        <li><strong><a href="mailto:<?= $email ?>"><?= $email ?></a></strong></li>
                         <li><strong><a href="tel:+919147709877">+91  9147709877</a></strong></li>
                     </ul>
                     <div class="social">
@@ -27,18 +26,18 @@
                     <h5>Explore</h5>
                     <div class="footer_links">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="room.html">Rooms</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="room.php">Rooms</a></li>
                             <!-- <li><a href="news-1">News & Events</a></li> -->
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="about.html">Terms and Conditions</a></li>
+                            <li><a href="contacts.php">Contacts</a></li>
+                            <li><a href="about.php">Terms and Conditions</a></li>
                             <li><strong><a href="tel:+919147709879">Enquiry</a></strong></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div id="newsletter">
+                    <!-- <div id="newsletter">
                         <h5>Newsletter</h5>
                         <div id="message-newsletter"></div>
                         <form method="post" action="phpmailer/newsletter_template_email" name="newsletter_form" id="newsletter_form">
@@ -48,7 +47,7 @@
                             </div>
                         </form>
                         <p>Receive latest offers and promos without spam. You can cancel anytime.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!--/row-->
@@ -56,7 +55,7 @@
         <!--/container-->
         <div class="copy">
             <div class="container">
-                © Hotel Plaza - by <a href="#">Gita Construction</a>
+                © <?= $appName ?> - by <a href="#">Gita Construction</a>
             </div>
         </div>
     </footer>
@@ -74,7 +73,7 @@
 <script src="assets/js/common_functions.js"></script>
 <script src="assets/js/validate.js"></script>
 
-<!-- Event snippet for Hotel Plaza Call conversion page
+<!-- Event snippet for <?= $appName ?> Call conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {

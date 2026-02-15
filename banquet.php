@@ -33,8 +33,8 @@ include('includes/header.php');
                     <h2>Chinsurah's Biye Bari</h2>
                 </div>
                 <p class="lead">Luxury & Elegance Under One Roof</p>
-                <p>Our banquet hall at Hotel Plaza offers the perfect venue for your special events—be it weddings, receptions, corporate meetings, or parties. With elegant decor, spacious layout, and modern amenities, your event will be unforgettable.</p>
-                <p><em>Experience grandeur at Hotel Plaza Banquets</em></p>
+                <p>Our banquet hall at <?= $appName ?> offers the perfect venue for your special events—be it weddings, receptions, corporate meetings, or parties. With elegant decor, spacious layout, and modern amenities, your event will be unforgettable.</p>
+                <p><em>Experience grandeur at <?= $appName ?> Banquets</em></p>
                 </div>
             </div>
         </div>
