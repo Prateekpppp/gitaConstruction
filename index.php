@@ -17,8 +17,8 @@ include('includes/header.php');
                 <div class="row justify-content-between flex-lg-row-reverse align-items-center">
                     <div class="col-lg-5">
                         <div class="parallax_wrapper">
-                            <img src="media/img/home_2.jpg" alt="" class="img-fluid rounded-img">
-                            <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img src="media/img/home_1.jpg" alt="" class="rounded-img"></span></div>
+                            <img src="assets/images/image1.webp" alt="" class="img-fluid rounded-img">
+                            <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img src="assets/images/image2.webp" alt="" class="rounded-img"></span></div>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -64,7 +64,7 @@ include('includes/header.php');
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <a href="room.html" class="box_cat_rooms">
                         <figure>
-                            <div class="background-image" data-background="url('media/img/rooms/sd.webp')"></div>
+                            <div class="background-image" data-background="url('assets/images/image3.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $250/night</small>-->
                                 <h3>Super Deluxe Room</h3>
@@ -76,7 +76,7 @@ include('includes/header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <a href="room.html" class="box_cat_rooms">
                         <figure>
-                            <div class="background-image" data-background="url('media/img/rooms/de.png')"></div>
+                            <div class="background-image" data-background="url('assets/images/image4.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $190/night</small>-->
                                 <h3>Deluxe Room</h3>
@@ -88,7 +88,7 @@ include('includes/header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <a href="room.html" class="box_cat_rooms">
                         <figure>
-                            <div class="background-image" data-background="url('media/img/rooms/std.png')"></div>
+                            <div class="background-image" data-background="url('assets/images/image5.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $240/night</small>-->
                                 <h3>Standard Room</h3>
@@ -152,7 +152,7 @@ include('includes/header.php');
                     <div class="col-lg-6">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="media/img/amenities/restro.png" alt="">
+                                <img src="assets/images/image6.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ include('includes/header.php');
                     <div class="col-lg-6 order-lg-2">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="media/img/amenities/banquet.png" alt="">
+                                <img src="assets/images/image7.jpg" alt="">
                             </div>
                         </div>
                     </div>

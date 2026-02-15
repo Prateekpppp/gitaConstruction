@@ -1,10 +1,15 @@
 
+<?php
+
+    $whatsapp = '918961260326';
+
+?>
+
 <!DOCTYPE html><html lang="zxx">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="Ansonika">
+        <meta name="description" content="Hotel & Restaurant in Kalyani">
         <!--<title></title>-->
         <title>
             Hotel in Chinsurah | Hotel for Chandannagar | Hotel for Bandel | Hotel Plaza        </title>
@@ -13,7 +18,7 @@
         <meta name="google-site-verification" content="zBzX-5HR2Et4q9Bc0dXeXer_Mw3UC1inu43I_kN5yVA">
         
         <!-- Favicons-->
-        <link rel="shortcut icon" href="media/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="media/img/logo/logo2.jpg" type="image/x-icon">
         <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="media/img/favicon/apple-touch-icon-57x57-precomposed.png">
         <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="media/img/favicon/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="media/img/favicon/apple-touch-icon-114x114-precomposed.png">

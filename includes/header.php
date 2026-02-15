@@ -4,13 +4,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-3">
-                    <a href="index.html" class="logo_normal"><img src="media/img/logo/logo.png" width="135" height="45" alt=""></a>
-                    <a href="index.html" class="logo_sticky"><img src="media/img/logo/logo_sticky.png" width="135" height="45" alt=""></a>
+                    <a href="index.php" class="logo_normal"><img src="media/img/logo/logo.png" width="100" alt=""></a>
+                    <a href="index.php" class="logo_sticky"><img src="media/img/logo/logo_sticky.png" width="100" alt=""></a>
                 </div>
                 <div class="col-9">
                     <div class="main-menu">
                         <a href="#0" class="closebt open_close_menu"><i class="bi bi-x"></i></a>
-                        <div class="logo_panel"><img src="media/img/logo/logo_sticky.png" width="135" height="45" alt=""></div>
+                        <div class="logo_panel"><img src="media/img/logo/logo_sticky.png" width="100" alt=""></div>
                         <nav id="mainNav">
                             <ul>
                                  <!-- <li class="submenu">
@@ -51,11 +51,11 @@
                                        <li><a href="coming-soon">Coming Soon</a></li>
                                     </ul>
                                 </li> -->
-                                <li><a href="home.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="room.html">Rooms</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="banquet.html">Banquet</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="rooms.php">Rooms</a></li>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li><a href="banquet.php">Banquet</a></li>
                                 <!-- <li class="submenu">
                                     <a href="about" class="show-submenu">Gallery</a>
                                     <ul>
@@ -63,7 +63,7 @@
                                        <li><a href="banquet">Video Gallery</a></li>
                                     </ul>
                                 </li> -->
-                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="contacts.php">Contacts</a></li>
                                 <!--<li><a href="https://wa.me/+919147709877" target="_blank" class="btn_1">Book Now</a></li>-->
                                 <li><a target="_blank" class="btn_1" onclick="gtag_report_conversion('https://wa.me/+919147709877')">Book Now</a></li>
                             </ul>

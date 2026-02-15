@@ -84,12 +84,12 @@ function gtag_report_conversion(url) {
         window.open(url, '_blank');
     }
   };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-10837975799/sRQCCNmnqP8aEPfF-a8o',
-      'value': 20.0,
-      'currency': 'INR',
-      'event_callback': callback
-  });
+//   gtag('event', 'conversion', {
+//       'send_to': 'AW-10837975799/sRQCCNmnqP8aEPfF-a8o',
+//       'value': 20.0,
+//       'currency': 'INR',
+//       'event_callback': callback
+//   });
   return false;
 }
 </script>
