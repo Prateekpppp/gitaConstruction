@@ -141,6 +141,20 @@ h6 {
   font-weight: 600;
 }
 
+h3 {
+  background: #faf8f5;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #333;
+  font-weight: normal;
+}
+
+h4 {
+  color: #fff;
+}
+
 p {
   margin-bottom: 25px;
 }

@@ -98,7 +98,7 @@ include('includes/foot.php');
 ?>
 
 <script>
-    function sendToWhatsApp2new() {
+    function sendToWhatsApp() {
         const name = document.getElementById("name_contact").value.trim();
         const lastname = document.getElementById("lastname_contact").value.trim();
         const email = document.getElementById("email_contact").value.trim();
@@ -117,7 +117,7 @@ include('includes/foot.php');
                         `*Phone:* ${phone}\n` +
                         `*Message:* ${message}`;
 
-        const whatsappNumber = "918961260326"; // Change this to your WhatsApp number
+        const whatsappNumber = "<?= $whatsapp ?>"; // Change this to your WhatsApp number
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(fullMessage)}`;
 
         window.open(whatsappURL, '_blank');

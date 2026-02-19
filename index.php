@@ -1,5 +1,7 @@
 <?php
 
+$h1tag = "Visiting AIIMS Kalyani? Book your stay at Hotel Mahal";
+$h2tag = "Welcome to Hotel Mahal - Luxury & Comfort in Chinsurah";
 include('includes/head.php');
 include('includes/header.php');
 
@@ -25,10 +27,10 @@ include('includes/header.php');
                         <div class="intro">
                             <div class="title">
                                 <small>About us</small>
-                                <h2>Welcome to <?= $appName ?> – Luxury & Comfort in Chinsurah</h2>
+                                <h2><?= $h2tag ?></h2>
                             </div>
                             <!--<p class="lead">Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim.</p>-->
-                            <p>Welcome to <?= $appName ?> – Luxury & Comfort in Chinsurah Located in the heart of Chinsurah, <?= $appName ?> Hotel, Restaurant & Banquet offers a perfect blend of elegance, comfort, and premium hospitality. Whether you’re looking for a luxurious stay, a delightful dining experience, or a grand venue for your special events, we have it all.</p>
+                            <h3>Find a peaceful, humble stay just moments from AIIMS Kalyani. We offer clean rooms and warm service to ensure your comfort during your visit. We are honored to host you at affordable rates per day.</h3>
                             <p><em>A unit of Gita Construction</em></p>
                         </div>
                     </div>
@@ -62,42 +64,42 @@ include('includes/header.php');
             </div>
             <div class="row justify-content-center add_bottom_90" data-cues="slideInUp" data-delay="300">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <a href="room.html" class="box_cat_rooms">
+                    <a href="#" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image3.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $250/night</small>-->
-                                <h3>Super Deluxe Room</h3>
+                                <h4>Super Deluxe Room</h4>
                                 <span>Read more</span>
                             </div>
                         </figure>
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <a href="room.html" class="box_cat_rooms">
+                    <a href="#" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image4.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $190/night</small>-->
-                                <h3>Deluxe Room</h3>
+                                <h4>Deluxe Room</h4>
                                 <span>Read more</span>
                             </div>
                         </figure>
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <a href="room.html" class="box_cat_rooms">
+                    <a href="#" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image5.jpg')"></div>
                             <div class="info">
                                 <!--<small>From $240/night</small>-->
-                                <h3>Standard Room</h3>
+                                <h4>Standard Room</h4>
                                 <span>Read more</span>
                             </div>
                         </figure>
                     </a>
                 </div>
-                <p class="text-end"><a href="room.html" class="btn_1 outline mt-2">View all Rooms</a></p>
+                <p class="text-end"><a href="#" class="btn_1 outline mt-2">View all Rooms</a></p>
             </div>
             <!-- /row-->
 

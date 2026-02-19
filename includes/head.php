@@ -4,7 +4,8 @@
     $appName = 'Hotel Mahal';
     $email = 'hotelmahal@gmail.com';
     $address = '6799/481, near aiims, Kantabele, Kalyani, Kata Belia, West Bengal 741245';
-    $whatsapp = '918961260326';
+    $whatsapp = '8961260326';
+    $pageTitle = $pageTitle ?? 'Hotel in Kalyani | Near AIIMS Kalyani';
 
 ?>
 
@@ -15,7 +16,7 @@
         <meta name="description" content="Hotel & Restaurant in Kalyani">
         <!--<title></title>-->
         <title>
-            Hotel in Chinsurah | Hotel for Chandannagar | Hotel for Bandel | <?= $appName ?>        </title>
+            <?= $pageTitle ?>        </title>
         
         <!-- ✅ Google Search Console Verification -->
         <meta name="google-site-verification" content="zBzX-5HR2Et4q9Bc0dXeXer_Mw3UC1inu43I_kN5yVA">

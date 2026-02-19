@@ -55,7 +55,7 @@
                                 <li><a href="about.php">About</a></li>
                                 <li><a href="rooms.php">Rooms</a></li>
                                 <li><a href="gallery.php">Gallery</a></li>
-                                <li><a href="banquet.php">Banquet</a></li>
+                                <li><a href="banquet.php">Blogs</a></li>
                                 <!-- <li class="submenu">
                                     <a href="about" class="show-submenu">Gallery</a>
                                     <ul>
@@ -64,8 +64,8 @@
                                     </ul>
                                 </li> -->
                                 <li><a href="contacts.php">Contacts</a></li>
-                                <!--<li><a href="https://wa.me/+919147709877" target="_blank" class="btn_1">Book Now</a></li>-->
-                                <li><a target="_blank" class="btn_1" onclick="gtag_report_conversion('https://wa.me/+919147709877')">Book Now</a></li>
+                                <li><a href="https://wa.me/<?= $whatsapp ?>" target="_blank" class="btn_1">Book Now</a></li>
+                                <!-- <li><a target="_blank" class="btn_1" onclick="gtag_report_conversion('https://wa.me/+919147709877')">Book Now</a></li> -->
                             </ul>
                         </nav>
                     </div>
