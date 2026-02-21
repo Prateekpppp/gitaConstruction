@@ -33,13 +33,13 @@
 
         <div class="col-lg-6">
           <div data-cue="fadeIn" data-delay="500">
-            <figure><img src="assets/images/image3.jpg" alt="Banquet Dining" class="img-fluid rounded-img"></figure>
+            <figure><img loading="lazy" src="assets/images/image3.jpg" alt="Banquet Dining" class="img-fluid rounded-img"></figure>
           </div>
           <div data-cue="fadeIn" data-delay="500">
-            <figure><img src="assets/images/image4.jpg" alt="Banquet Lights" class="img-fluid rounded-img"></figure>
+            <figure><img loading="lazy" src="assets/images/image4.jpg" alt="Banquet Lights" class="img-fluid rounded-img"></figure>
           </div>
           <div data-cue="fadeIn" data-delay="500">
-            <figure><img src="assets/images/image5.jpg" alt="Banquet Decoration" class="img-fluid rounded-img"></figure>
+            <figure><img loading="lazy" src="assets/images/image5.jpg" alt="Banquet Decoration" class="img-fluid rounded-img"></figure>
           </div>
         </div>
 

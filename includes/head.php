@@ -49,6 +49,6 @@
 
 <?php
 
-include('includes/preloader.php');
+// include('includes/preloader.php');
 
 ?>

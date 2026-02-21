@@ -1,7 +1,7 @@
 <?php
 
 $h1tag = "Visiting AIIMS Kalyani? Book your stay at Hotel Mahal";
-$h2tag = "Welcome to Hotel Mahal - Luxury & Comfort in Chinsurah";
+$h2tag = "Welcome to Hotel Mahal - Comfortable stay in Kalyani";
 include('includes/head.php');
 include('includes/header.php');
 
@@ -19,8 +19,8 @@ include('includes/header.php');
                 <div class="row justify-content-between flex-lg-row-reverse align-items-center">
                     <div class="col-lg-5">
                         <div class="parallax_wrapper">
-                            <img src="assets/images/image1.webp" alt="" class="img-fluid rounded-img">
-                            <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img src="assets/images/image2.webp" alt="" class="rounded-img"></span></div>
+                            <img loading="lazy" src="assets/images/image1.webp" alt="" class="img-fluid rounded-img">
+                            <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img loading="lazy" src="assets/images/image2.webp" alt="" class="rounded-img"></span></div>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -154,7 +154,7 @@ include('includes/header.php');
                     <div class="col-lg-6">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="assets/images/image6.jpg" alt="">
+                                <img loading="lazy" src="assets/images/image6.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ include('includes/header.php');
                     <div class="col-lg-6 order-lg-2">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="assets/images/image7.jpg" alt="">
+                                <img loading="lazy" src="assets/images/image7.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ include('includes/header.php');
                 <!--<div class="row justify-content-center home">-->
                 <!--    <div class="item col-xl-4 col-lg-6">-->
                 <!--        <a href="news-post" class="box_contents" data-cue="slideInUp" data-delay="300">-->
-                <!--            <figure><img src="media/img/blog-1.jpg" alt="" class="img-fluid"><em>11 Dec</em></figure>-->
+                <!--            <figure><img loading="lazy" src="media/img/blog-1.jpg" alt="" class="img-fluid"><em>11 Dec</em></figure>-->
                 <!--            <div class="wrapper">-->
                 <!--                <small>Travel<span></span></small>-->
                 <!--                <h2>The vacation and travel Guide for experts in 2022</h2>-->
@@ -217,7 +217,7 @@ include('includes/header.php');
                 <!--    </div>-->
                 <!--    <div class="item col-xl-4 col-lg-6">-->
                 <!--        <a href="news-post" class="box_contents" data-cue="slideInUp" data-delay="400">-->
-                <!--            <figure><img src="media/img/blog-3.jpg" alt="" class="img-fluid"><em>24 Dec</em></figure>-->
+                <!--            <figure><img loading="lazy" src="media/img/blog-3.jpg" alt="" class="img-fluid"><em>24 Dec</em></figure>-->
                 <!--            <div class="wrapper">-->
                 <!--                <small>Event<span></span></small>-->
                 <!--                <h2>Yayoi Kusama: Infinity Mirror Rooms at Tate Modern</h2>-->
@@ -227,7 +227,7 @@ include('includes/header.php');
                 <!--    </div>-->
                 <!--    <div class="item col-xl-4 col-lg-6">-->
                 <!--        <a href="news-post" class="box_contents" data-cue="slideInUp" data-delay="500">-->
-                <!--            <figure><img src="media/img/blog-2.jpg" alt="" class="img-fluid"><em>21 Dec</em></figure>-->
+                <!--            <figure><img loading="lazy" src="media/img/blog-2.jpg" alt="" class="img-fluid"><em>21 Dec</em></figure>-->
                 <!--            <div class="wrapper">-->
                 <!--                <small>Restaurant<span></span></small>-->
                 <!--                <h2>Best Local Restaurant in 2022</h2>-->

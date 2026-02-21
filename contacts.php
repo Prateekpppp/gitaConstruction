@@ -32,7 +32,7 @@ include('includes/header.php');
                             <li>
                                 <i class="bi bi-telephone"></i>
                                 <h4>Telephone</h4>
-                                <div>+91 9147709877<br><small>Monday to Friday 9am - 7pm</small></div>
+                                <div>+91 <?= $whatsapp ?><br><small>24/7 available</small></div>
                             </li>
                         </ul>
                     </div>

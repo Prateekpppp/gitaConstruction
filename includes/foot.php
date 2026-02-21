@@ -11,12 +11,12 @@
                     <ul>
                         <li><?= $address ?></li>
                         <li><strong><a href="mailto:<?= $email ?>"><?= $email ?></a></strong></li>
-                        <li><strong><a href="tel:+919147709877">+91  9147709877</a></strong></li>
+                        <li><strong><a href="tel:+91<?= $whatsapp ?>">+91  <?= $whatsapp ?></a></strong></li>
                     </ul>
                     <div class="social">
                         <ul>
                             <li><a href="https://www.instagram.com/hotel_plaza_and_restaurant" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="https://wa.me/+919147709877" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="https://wa.me/+91<?= $whatsapp ?>" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
                             <!--<li><a href="#0"><i class="bi bi-facebook"></i></a></li>-->
                             <!--<li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>-->
                         </ul>

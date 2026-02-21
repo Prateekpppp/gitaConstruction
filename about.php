@@ -19,8 +19,8 @@ include('includes/header.php');
           <div class="row justify-content-between align-items-center">
               <div class="col-lg-5">
                   <div class="parallax_wrapper inverted">
-                      <img src="assets/images/image1.webp" alt="" class="img-fluid rounded-img">
-                      <!--<div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img src="media/img/about/home02.jpg" alt="" class="rounded-img"></span></div>-->
+                      <img loading="lazy" src="assets/images/image1.webp" alt="" class="img-fluid rounded-img">
+                      <!--<div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img loading="lazy" src="media/img/about/home02.jpg" alt="" class="rounded-img"></span></div>-->
                   </div>
               </div>
               <div class="col-lg-5">
@@ -80,16 +80,16 @@ include('includes/header.php');
                       </div>
                       <div class="col-lg-6 ">
                           <div data-cue="fadeIn" data-delay="500">
-                              <figure><img src="assets/images/image3.jpg" alt="" class="img-fluid rounded-img"></figure>
+                              <figure><img loading="lazy" src="assets/images/image3.jpg" alt="" class="img-fluid rounded-img"></figure>
                           </div>
                           <div data-cue="fadeIn" data-delay="500">
                               <figure>
-                                  <img src="assets/images/image4.jpg" alt="" class="img-fluid rounded-img">
+                                  <img loading="lazy" src="assets/images/image4.jpg" alt="" class="img-fluid rounded-img">
                               </figure>
                           </div>
                           <div data-cue="fadeIn" data-delay="500">
                               <figure>
-                                  <img src="assets/images/image5.jpg" alt="" class="img-fluid rounded-img">
+                                  <img loading="lazy" src="assets/images/image5.jpg" alt="" class="img-fluid rounded-img">
                               </figure>
                           </div>
                       </div>

@@ -19,7 +19,7 @@ include('includes/header.php');
                 <div class="row justify-content-center">
                     <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
                         <div class="item-img" data-cue="slideInUp">
-                            <img src="assets/images/image3.jpg" alt="">
+                            <img loading="lazy" src="assets/images/image3.jpg" alt="">
                             <div class="content">
                                 <a data-fslightbox="gallery_1" data-type="image" href="assets/images/image3.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
                             </div>
@@ -27,7 +27,7 @@ include('includes/header.php');
                     </div>
                     <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
                         <div class="item-img" data-cue="slideInUp">
-                            <img src="assets/images/image4.jpg" alt="">
+                            <img loading="lazy" src="assets/images/image4.jpg" alt="">
                             <div class="content">
                                 <a data-fslightbox="gallery_1" data-type="image" href="assets/images/image4.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
                             </div>
@@ -35,7 +35,7 @@ include('includes/header.php');
                     </div>
                     <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
                         <div class="item-img" data-cue="slideInUp">
-                            <img src="assets/images/image5.jpg" alt="">
+                            <img loading="lazy" src="assets/images/image5.jpg" alt="">
                             <div class="content">
                                 <a data-fslightbox="gallery_1" data-type="image" href="assets/images/image5.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
                             </div>

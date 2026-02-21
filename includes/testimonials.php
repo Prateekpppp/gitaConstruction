@@ -13,7 +13,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="media/img/testimonial_1.jpg" alt="" class="img-circle">
+                                            <figure><img loading="lazy" src="media/img/testimonial_1.jpg" alt="" class="img-circle">
                                             </figure>
                                             <h4>Ashok<small>12 Oct</small></h4>
                                         </div>
@@ -26,7 +26,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="media/img/testimonial_1.jpg" alt="" class="img-circle">
+                                            <figure><img loading="lazy" src="media/img/testimonial_1.jpg" alt="" class="img-circle">
                                             </figure>
                                             <h4>Viral<small>2 Nov</small></h4>
                                         </div>
@@ -39,7 +39,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="media/img/testimonial_1.jpg" alt="" class="img-circle">
+                                            <figure><img loading="lazy" src="media/img/testimonial_1.jpg" alt="" class="img-circle">
                                             </figure>
                                             <h4>Ravi<small>3 Dec</small></h4>
                                         </div>

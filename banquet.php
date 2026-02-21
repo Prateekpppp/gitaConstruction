@@ -18,10 +18,10 @@ include('includes/header.php');
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-5">
                 <div class="parallax_wrapper inverted">
-                <img src="assets/images/image1.webp" alt="Banquet Interior" class="img-fluid rounded-img">
+                <img loading="lazy" src="assets/images/image1.webp" alt="Banquet Interior" class="img-fluid rounded-img">
                 <div data-cue="slideInUp" class="img_over">
                     <span data-jarallax-element="-30">
-                    <!-- <img src="img/banquet_2.jpg" alt="Event Setup" class="rounded-img"> -->
+                    <!-- <img loading="lazy" src="img/banquet_2.jpg" alt="Event Setup" class="rounded-img"> -->
                     </span>
                 </div>
                 </div>
