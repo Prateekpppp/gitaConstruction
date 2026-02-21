@@ -64,7 +64,7 @@ include('includes/header.php');
             </div>
             <div class="row justify-content-center add_bottom_90" data-cues="slideInUp" data-delay="300">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <a href="#" class="box_cat_rooms">
+                    <a href="rooms.php" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image3.jpg')"></div>
                             <div class="info">
@@ -76,7 +76,7 @@ include('includes/header.php');
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <a href="#" class="box_cat_rooms">
+                    <a href="rooms.php" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image4.jpg')"></div>
                             <div class="info">
@@ -88,7 +88,7 @@ include('includes/header.php');
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <a href="#" class="box_cat_rooms">
+                    <a href="rooms.php" class="box_cat_rooms">
                         <figure>
                             <div class="background-image" data-background="url('assets/images/image5.jpg')"></div>
                             <div class="info">
